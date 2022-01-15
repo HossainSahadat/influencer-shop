@@ -1,0 +1,21 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+/* Common styless part start*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header Part Start */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    color: aqua;
+}
+/* Header Part end */
