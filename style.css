@@ -277,3 +277,67 @@ a:hover span:nth-child(7) {
     width: 80px;
 }
 /* Partnear company logo part end */
+/* Popular product part start */
+.product-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.product-section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.populer-products{
+    display: grid;
+   
+    grid-template-columns: repeat(3,1fr);
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 470px;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background-color:rgb(251,251,251);
+    box-shadow: 0px 0px 30px 0px #00000026;
+    
+}
+.product-img{
+   text-align: center;
+   margin-top: -20px;
+}
+.product-img img{
+    width: 85%;
+    align-items: center;
+}
+.product-title .product-name{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 20px;
+}
+.product-title .product-price{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 5px 20px;
+    color: #000000DE; 
+}
+.product-review{
+    margin: 5px 20px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.field{
+   color:#FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.product-info p{
+    font-size: 14px;
+    margin: 5px 20px;
+    font-weight: 700;
+    color: #787885;
+}
+/* Popular product part end */
